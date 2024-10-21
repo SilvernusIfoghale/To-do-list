@@ -126,3 +126,9 @@ input[type="checkbox"]:checked ~ .output-text {
   text-decoration: line-through;
   color: gray;
 }
+
+@media screen and (max-width: 465px) {
+  .wrapper {
+    min-width: 355px;
+  }
+}
